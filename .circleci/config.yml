@@ -3,7 +3,7 @@ version: 2.1
 executors:
   hugo-executor:
     docker:
-      - image: peaceiris/hugo:v0.146.0-mod
+      - image: stefanso/hugo-builder:latest
 
 jobs:
   build:
@@ -24,7 +24,9 @@ jobs:
       - run:
           name: Update theme
           command: git submodule update --init --recursive
-
+      - run:
+          name: Install Node dependencies
+          command: npm install
       - run:
           name: Build Hugo site
           command: hugo --destination=workspace/public
