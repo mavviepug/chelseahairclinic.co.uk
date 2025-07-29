@@ -11,12 +11,15 @@ jobs:
     steps:
       - checkout
       - run:
+          name: Check Hugo version
+          command: hugo version
+
+      - run:
           name: Install Hugo modules
           command: |
-            hugo version
             hugo mod clean --all
             hugo mod tidy
-            hugo mod download
+            hugo mod get
 
       - run:
           name: Update theme
