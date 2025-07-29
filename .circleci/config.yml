@@ -10,6 +10,11 @@ jobs:
     executor: hugo-executor
     steps:
       - checkout
+      - run:
+          name: Install Hugo modules
+          command: |
+            hugo mod tidy
+            hugo mod download
 
       - run:
           name: Update theme
