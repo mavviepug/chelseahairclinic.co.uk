@@ -3,7 +3,7 @@ version: 2.1
 executors:
   hugo-executor:
     docker:
-      - image: hugomods/hugo:0.146.3-exts
+      - image: peaceiris/hugo:v0.146.3-exts
 
 jobs:
   build:
