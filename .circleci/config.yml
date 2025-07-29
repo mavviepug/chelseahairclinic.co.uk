@@ -4,6 +4,7 @@ executors:
   hugo-executor:
     docker:
       - image: hugomods/hugo:exts
+        
 jobs:
   build:
     executor: hugo-executor
