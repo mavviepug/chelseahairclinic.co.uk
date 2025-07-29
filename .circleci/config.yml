@@ -13,6 +13,7 @@ jobs:
       - run:
           name: Install Hugo modules
           command: |
+            hugo version
             hugo mod clean --all
             hugo mod tidy
             hugo mod download
