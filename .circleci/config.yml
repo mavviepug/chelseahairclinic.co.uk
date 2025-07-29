@@ -3,7 +3,7 @@ version: 2.1
 executors:
   hugo-executor:
     docker:
-      - image: cibuilds/hugo:latest
+      - image: hugomods/hugo:std-exts
 
 jobs:
   build:
