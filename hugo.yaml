@@ -46,9 +46,9 @@ imaging:
 languages:
   en:
     languageName: English
-    title: Goldydocs
+    title: Chelsea Hair Clinic
     params:
-      description: A Docsy example site
+      description: Chelsea Hair Clinic - Holistic Medical & Surgical Hair Restoration Experts
   # cSpell:disable
   'no':
     languageName: Norsk
