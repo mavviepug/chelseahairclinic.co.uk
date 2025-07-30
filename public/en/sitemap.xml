@@ -185,6 +185,24 @@
                 href="https://chelseahairclinic.co.uk/blog/"
                 />
   </url><url>
+    <loc>https://chelseahairclinic.co.uk/</loc>
+    <lastmod>2025-07-30T14:49:33+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="no"
+                href="https://chelseahairclinic.co.uk/no/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fa"
+                href="https://chelseahairclinic.co.uk/fa/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://chelseahairclinic.co.uk/"
+                />
+  </url><url>
     <loc>https://chelseahairclinic.co.uk/community/</loc>
     <lastmod>2025-07-29T09:57:42+01:00</lastmod>
     <xhtml:link
@@ -214,24 +232,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://chelseahairclinic.co.uk/docs/"
-                />
-  </url><url>
-    <loc>https://chelseahairclinic.co.uk/</loc>
-    <lastmod>2025-07-30T14:47:36+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="no"
-                href="https://chelseahairclinic.co.uk/no/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fa"
-                href="https://chelseahairclinic.co.uk/fa/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://chelseahairclinic.co.uk/"
                 />
   </url><url>
     <loc>https://chelseahairclinic.co.uk/categories/placeholders/</loc>
