@@ -6,4 +6,5 @@ package-lock.json
 
 .idea
 .circleci
+.DS_Store
 

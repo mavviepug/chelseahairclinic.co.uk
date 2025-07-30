@@ -15,7 +15,7 @@ title: Chelsea Hair Clinic
 
 
 {{% blocks/lead color="primary" %}}
-Struggling With Hair Loss?
+Struggling With Hair Loss??
 
 At Chelsea Hair Clinic in the heart of London, we are committed to guiding you through your hair loss journey with personalised treatments and a compassionate environment.
 
