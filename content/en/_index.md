@@ -1,5 +1,5 @@
 ---
-title: Goldydocs
+title: Chelsea Hair Clinic
 ---
 
 {{< blocks/cover title="Welcome to Chelsea Hair Clinic" image_anchor="top" height="full" >}}
@@ -17,7 +17,7 @@ title: Goldydocs
 {{% blocks/lead color="primary" %}}
 Struggling With Hair Loss?
 
-At Hair GP in London, we are committed to guiding you through your hair loss journey with personalised treatments and a compassionate environment.
+At Chelsea Hair Clinic in the heart of London, we are committed to guiding you through your hair loss journey with personalised treatments and a compassionate environment.
 
 Our mission is to help you regain confidence and enhance your well-being, empowering you to embrace a happier, healthier life.
 {{% /blocks/lead %}}
