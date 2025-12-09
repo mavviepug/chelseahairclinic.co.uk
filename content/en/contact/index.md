@@ -4,23 +4,13 @@ linkTitle: Contact
 menu: {main: {weight: 40}}
 ---
 
-{{% blocks/cover title="Get In Touch" image_anchor="bottom" height="auto" %}}
+# Get In Touch
 
 Let's discuss how we can help your practice grow.
-{.mt-5}
-
-{{% /blocks/cover %}}
-
-{{% blocks/lead %}}
 
 Whether you're looking to improve your search rankings, build your online authority, or develop a comprehensive digital marketing strategy, we'd love to hear from you.
 
-{{% /blocks/lead %}}
-
-{{% blocks/section color="white" %}}
-
 ## Contact Details
-{.text-center}
 
 ### Chelsea Medical Marketing Ltd
 
@@ -38,12 +28,7 @@ United Kingdom
 **Office Hours:**
 Monday - Friday: 9:00 AM - 6:00 PM GMT
 
-{{% /blocks/section %}}
-
-{{% blocks/section color="primary" %}}
-
 ## What Happens Next?
-{.text-center}
 
 When you reach out, here's what to expect:
 
@@ -57,15 +42,8 @@ When you reach out, here's what to expect:
 
 We typically respond to all inquiries within 24 hours during business days.
 
-{{% /blocks/section %}}
-
-{{% blocks/section %}}
-
 ## Our Clients
-{.text-center}
 
 We work with healthcare practices across the UK who are serious about growing their online presence and patient base.
 
 If you're committed to investing in strategic digital marketing, we'd be delighted to explore how we can help.
-
-{{% /blocks/section %}}

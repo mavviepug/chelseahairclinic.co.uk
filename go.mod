@@ -1,5 +1,3 @@
-module github.com/google/docsy-example
+module github.com/chelseahairclinic/chelseahairclinic.co.uk
 
-go 1.12
-
-require github.com/google/docsy v0.12.0
+go 1.19

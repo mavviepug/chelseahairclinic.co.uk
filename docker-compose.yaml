@@ -3,7 +3,7 @@ version: "3.8"
 services:
 
   site:
-    image: docsy/docsy-example
+    image: chelsea-medical-marketing/site
     build:
       context: .
     command: server

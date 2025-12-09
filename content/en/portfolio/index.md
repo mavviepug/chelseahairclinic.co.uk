@@ -4,23 +4,13 @@ linkTitle: Portfolio
 menu: {main: {weight: 30}}
 ---
 
-{{% blocks/cover title="Client Success Stories" image_anchor="bottom" height="auto" %}}
+# Client Success Stories
 
 Real results for healthcare practices.
-{.mt-5}
-
-{{% /blocks/cover %}}
-
-{{% blocks/lead %}}
 
 We're proud of the work we do with our clients. Here's a look at how we've helped healthcare practices achieve their digital marketing goals.
 
-{{% /blocks/lead %}}
-
-{{% blocks/section color="white" %}}
-
 ## Featured Case Study: HairGP
-{.text-center}
 
 ### UK's Leading Hair Restoration Platform
 
@@ -42,12 +32,7 @@ We're proud of the work we do with our clients. Here's a look at how we've helpe
 
 HairGP is now recognized as one of the UK's leading authorities on hair restoration, with a strong online presence that drives consistent patient acquisition.
 
-{{% /blocks/section %}}
-
-{{% blocks/section color="primary" %}}
-
 ## Other Sectors We Serve
-{.text-center}
 
 While we specialize in hair restoration and medical aesthetics, our expertise extends across the healthcare sector:
 
@@ -58,15 +43,8 @@ While we specialize in hair restoration and medical aesthetics, our expertise ex
 
 Each client receives a tailored strategy that addresses their unique market position and growth objectives.
 
-{{% /blocks/section %}}
-
-{{% blocks/section %}}
-
-# Want Similar Results?
-{.text-center}
+## Want Similar Results?
 
 Let's discuss how we can help your practice grow its online presence and patient base.
 
 [Get in touch](/contact/)
-
-{{% /blocks/section %}}
