@@ -1,0 +1,155 @@
+baseURL: https://chelseahairclinic.co.uk
+title: Chelsea Medical Marketing
+
+# cSpell:ignore goldmark github hugo readingtime docsy subdir lastmod pygments linenos catmullrom norsk gu
+
+# Language settings
+contentDir: content/en
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: false
+# Useful when translating.
+enableMissingTranslationPlaceholders: true
+
+enableRobotsTXT: true
+
+# Will give values to .Lastmod etc.
+enableGitInfo: true
+
+# Comment out to disable taxonomies in Docsy
+# disableKinds: [taxonomy]
+
+# You can add your own taxonomies
+taxonomies:
+  tag: tags
+  category: categories
+
+# Highlighting config
+pygmentsCodeFences: true
+pygmentsUseClasses: false
+# Use the new Chroma Go highlighter in Hugo.
+pygmentsUseClassic: false
+# pygmentsOptions: "linenos=table"
+# See https://help.farbox.com/pygments.html
+pygmentsStyle: tango
+
+# Configure how URLs look like per section.
+permalinks:
+  blog: /:section/:year/:month/:day/:slug/
+
+# Image processing configuration.
+imaging:
+  resampleFilter: CatmullRom
+  quality: 75
+  anchor: smart
+
+# Language configuration
+languages:
+  en:
+    languageName: English
+    title: Chelsea Medical Marketing
+    params:
+      description: Specialist digital marketing and SEO services for healthcare and medical aesthetics practices
+
+markup:
+  goldmark:
+    parser:
+      attribute:
+        block: true
+    renderer:
+      unsafe: true
+  highlight:
+    # See a complete list of available styles at https://xyproto.github.io/splash/docs/all.html
+    style: tango
+    # Uncomment if you want your chosen highlight style used for code blocks without a specified language
+    # guessSyntax: true
+
+# Everything below this are Site Params
+
+# Comment out if you don't want the "print entire section" link enabled.
+outputs:
+  section: [HTML, print, RSS]
+
+params:
+  taxonomy:
+    # set taxonomyCloud = [] to hide taxonomy clouds
+    taxonomyCloud: [tags, categories]
+
+    # If used, must have same length as taxonomyCloud
+    taxonomyCloudTitle: [Tag Cloud, Categories]
+
+    # set taxonomyPageHeader = [] to hide taxonomies on the page headers
+    taxonomyPageHeader: [tags, categories]
+
+  privacy_policy: /privacy/
+
+  # First one is picked as the Twitter card image if not set on page.
+  # images: [images/project-illustration.png]
+
+  # Version menu disabled for marketing site
+  # version_menu:
+  # archived_version: false
+  # version: 0.0
+  # url_latest_version:
+
+  # Repository configuration - disabled for marketing site
+  # github_repo:
+  # github_project_repo:
+  # github_branch: main
+
+  # Google Custom Search Engine ID. Remove or comment out to disable search.
+  # gcs_engine_id:
+
+  # Enable Lunr.js offline search
+  offlineSearch: false
+
+  # Enable syntax highlighting and copy buttons on code blocks with Prism
+  prism_syntax_highlighting: false
+
+  copyright:
+    authors: Chelsea Medical Marketing Ltd |
+    from_year: 2023
+
+  # User interface configuration
+  ui:
+    # Set to true to disable breadcrumb navigation.
+    breadcrumb_disable: false
+    # Set to false if you don't want to display a logo (/assets/icons/logo.svg) in the top navbar
+    navbar_logo: true
+    # Set to true if you don't want the top navbar to be translucent when over a `block/cover`, like on the homepage.
+    navbar_translucent_over_cover_disable: false
+    # Enable to show the side bar menu in its compact state.
+    sidebar_menu_compact: false
+    # Set to true to hide the sidebar search box (the top nav search box will still be displayed if search is enabled)
+    sidebar_search_disable: false
+
+    # Feedback feature disabled for marketing site
+    feedback:
+      enable: false
+
+    # Adds a reading time to the top of each doc.
+    # If you want this feature, but occasionally need to remove the Reading time from a single page,
+    # add "hide_readingtime: true" to the page's front matter
+    readingtime:
+      enable: false
+
+  links:
+    # Contact links for footer
+    user:
+      - name: Email Us
+        url: mailto:hello@chelseahairclinic.co.uk
+        icon: fa fa-envelope
+        desc: Get in touch with our team
+      - name: LinkedIn
+        url: https://linkedin.com/company/chelsea-medical-marketing
+        icon: fab fa-linkedin
+        desc: Connect with us on LinkedIn
+
+module:
+  # Uncomment the next line to build and serve using local docsy clone declared in the named Hugo workspace:
+  # workspace: docsy.work
+  hugoVersion:
+    extended: true
+    min: 0.146.0
+  imports:
+    - path: github.com/google/docsy
+      disable: false

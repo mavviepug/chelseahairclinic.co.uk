@@ -1,155 +1,144 @@
 baseURL: https://chelseahairclinic.co.uk
+languageCode: en-us
 title: Chelsea Medical Marketing
 
-# cSpell:ignore goldmark github hugo readingtime docsy subdir lastmod pygments linenos catmullrom norsk gu
+theme: hugo-fresh
 
-# Language settings
-contentDir: content/en
-defaultContentLanguage: en
-defaultContentLanguageInSubdir: false
-# Useful when translating.
-enableMissingTranslationPlaceholders: true
-
-enableRobotsTXT: true
-
-# Will give values to .Lastmod etc.
-enableGitInfo: true
-
-# Comment out to disable taxonomies in Docsy
-# disableKinds: [taxonomy]
-
-# You can add your own taxonomies
-taxonomies:
-  tag: tags
-  category: categories
-
-# Highlighting config
-pygmentsCodeFences: true
-pygmentsUseClasses: false
-# Use the new Chroma Go highlighter in Hugo.
-pygmentsUseClassic: false
-# pygmentsOptions: "linenos=table"
-# See https://help.farbox.com/pygments.html
-pygmentsStyle: tango
-
-# Configure how URLs look like per section.
-permalinks:
-  blog: /:section/:year/:month/:day/:slug/
-
-# Image processing configuration.
-imaging:
-  resampleFilter: CatmullRom
-  quality: 75
-  anchor: smart
-
-# Language configuration
-languages:
-  en:
-    languageName: English
-    title: Chelsea Medical Marketing
-    params:
-      description: Specialist digital marketing and SEO services for healthcare and medical aesthetics practices
-
+googleAnalytics:
+disableKinds:
+- taxonomy
 markup:
   goldmark:
-    parser:
-      attribute:
-        block: true
     renderer:
       unsafe: true
-  highlight:
-    # See a complete list of available styles at https://xyproto.github.io/splash/docs/all.html
-    style: tango
-    # Uncomment if you want your chosen highlight style used for code blocks without a specified language
-    # guessSyntax: true
-
-# Everything below this are Site Params
-
-# Comment out if you don't want the "print entire section" link enabled.
-outputs:
-  section: [HTML, print, RSS]
 
 params:
-  taxonomy:
-    # set taxonomyCloud = [] to hide taxonomy clouds
-    taxonomyCloud: [tags, categories]
+  openGraph: true
+  description: Specialist digital marketing and SEO services for healthcare and medical aesthetics practices
 
-    # If used, must have same length as taxonomyCloud
-    taxonomyCloudTitle: [Tag Cloud, Categories]
+  navbarlogo:
+    image: logos/fresh.svg
+    link: /
 
-    # set taxonomyPageHeader = [] to hide taxonomies on the page headers
-    taxonomyPageHeader: [tags, categories]
+  font:
+    name: "Open Sans"
+    sizes: [400,600]
 
-  privacy_policy: /privacy/
+  hero:
+    title: Specialist Digital Marketing for Healthcare
+    subtitle: Helping Medical Aesthetics & Healthcare Practices Grow Online Through Strategic SEO, Content Marketing, and Digital PR
+    buttontext: Our Services
+    buttonlink: "#section1"
+    image: illustrations/worker.svg
 
-  # First one is picked as the Twitter card image if not set on page.
-  # images: [images/project-illustration.png]
+  navbar:
+  - title: About
+    url: /about/
+  - title: Services
+    url: "#section1"
+  - title: Portfolio
+    url: "#section4"
+  - title: Contact
+    url: "#section5"
+    button: true
 
-  # Version menu disabled for marketing site
-  # version_menu:
-  # archived_version: false
-  # version: 0.0
-  # url_latest_version:
+  section1:
+    title: Our Core Services
+    subtitle: Tailored digital marketing solutions for healthcare practices
+    tiles:
+    - title: Healthcare SEO
+      icon: mouse-globe
+      text: Specialized search engine optimization strategies for medical practices, ensuring you rank for the conditions and treatments you offer
+      url: /services/
+      buttonText: Learn More
+    - title: Content Marketing
+      icon: laptop-cloud
+      text: Expert medical content creation that educates patients, builds authority, and drives organic traffic to your practice
+      url: /services/
+      buttonText: Learn More
+    - title: Digital PR & Outreach
+      icon: plug-cloud
+      text: Strategic link building and digital PR campaigns that establish your practice as a trusted authority in your field
+      url: /services/
+      buttonText: Learn More
 
-  # Repository configuration - disabled for marketing site
-  # github_repo:
-  # github_project_repo:
-  # github_branch: main
+  section2:
+    title: Why Healthcare Practices Choose Us
+    subtitle: Specialist expertise in medical aesthetics marketing
+    features:
+    - title: Healthcare Specialists
+      text: We exclusively work with medical and aesthetic practices, understanding regulatory requirements and patient journey nuances. Our team combines technical SEO expertise with medical content knowledge.
+      icon: laptop-globe
+    - title: Results-Driven Approach
+      text: Our clients see measurable improvements in organic traffic, patient inquiries, and online visibility within 90 days. We focus on metrics that matter to your practice growth.
+      icon: doc-sync
+    - title: Partnership Mindset
+      text: We become an extension of your team, working closely with you to achieve long-term sustainable growth. Transparent reporting and regular strategy sessions keep you informed.
+      icon: mobile-feed
 
-  # Google Custom Search Engine ID. Remove or comment out to disable search.
-  # gcs_engine_id:
+  section3:
+    title: Proven Results for Healthcare Practices
+    subtitle: Data-driven strategies that deliver real growth
+    image: illustrations/mockups/app-mockup.png
+    buttonText: View Case Studies
+    buttonLink: /portfolio/
 
-  # Enable Lunr.js offline search
-  offlineSearch: false
+  section4:
+    title: Featured Client Success
+    subtitle: Real results for healthcare practices
+    clients:
+    - name: HairGP
+      quote: Chelsea Medical Marketing helped us achieve a 300% increase in organic traffic within 12 months. Their expertise in healthcare SEO and strategic link building has been invaluable to our growth.
+      job: Leading UK Hair Restoration Platform
+      img: 1
+    - name: Medical Practice Director
+      quote: The team's understanding of the healthcare sector and regulatory landscape sets them apart. They deliver results while maintaining complete compliance with ASA guidelines.
+      job: Medical Aesthetics Clinic
+      img: 2
+    - name: Practice Manager
+      quote: From technical SEO to content strategy, Chelsea Medical Marketing has transformed our online presence. Patient inquiries have increased by 45% since we started working together.
+      job: Private Healthcare Practice
+      img: 3
 
-  # Enable syntax highlighting and copy buttons on code blocks with Prism
-  prism_syntax_highlighting: false
+  section5:
+    title: Ready to Grow Your Practice?
+    subtitle: Let's discuss how we can help your practice thrive online
+    buttonText: Get In Touch
 
-  copyright:
-    authors: Chelsea Medical Marketing Ltd |
-    from_year: 2023
-
-  # User interface configuration
-  ui:
-    # Set to true to disable breadcrumb navigation.
-    breadcrumb_disable: false
-    # Set to false if you don't want to display a logo (/assets/icons/logo.svg) in the top navbar
-    navbar_logo: true
-    # Set to true if you don't want the top navbar to be translucent when over a `block/cover`, like on the homepage.
-    navbar_translucent_over_cover_disable: false
-    # Enable to show the side bar menu in its compact state.
-    sidebar_menu_compact: false
-    # Set to true to hide the sidebar search box (the top nav search box will still be displayed if search is enabled)
-    sidebar_search_disable: false
-
-    # Feedback feature disabled for marketing site
-    feedback:
-      enable: false
-
-    # Adds a reading time to the top of each doc.
-    # If you want this feature, but occasionally need to remove the Reading time from a single page,
-    # add "hide_readingtime: true" to the page's front matter
-    readingtime:
-      enable: false
-
-  links:
-    # Contact links for footer
-    user:
-      - name: Email Us
-        url: mailto:hello@chelseahairclinic.co.uk
-        icon: fa fa-envelope
-        desc: Get in touch with our team
-      - name: LinkedIn
-        url: https://linkedin.com/company/chelsea-medical-marketing
-        icon: fab fa-linkedin
-        desc: Connect with us on LinkedIn
-
-module:
-  # Uncomment the next line to build and serve using local docsy clone declared in the named Hugo workspace:
-  # workspace: docsy.work
-  hugoVersion:
-    extended: true
-    min: 0.146.0
-  imports:
-    - path: github.com/google/docsy
-      disable: false
+  footer:
+    logo: fresh-white-alt.svg
+    socialmediatitle: Connect With Us
+    socialmedia:
+    - link: https://linkedin.com/company/chelsea-medical-marketing
+      icon: linkedin
+    bulmalogo: false
+    quicklinks:
+      column1:
+        title: "Company"
+        links:
+        - text: About Us
+          link: /about/
+        - text: Our Services
+          link: /services/
+        - text: Portfolio
+          link: /portfolio/
+        - text: Contact
+          link: /contact/
+      column2:
+        title: "Services"
+        links:
+        - text: Healthcare SEO
+          link: /services/
+        - text: Content Marketing
+          link: /services/
+        - text: Digital PR & Outreach
+          link: /services/
+        - text: Strategy Consulting
+          link: /services/
+      column3:
+        title: "Legal"
+        links:
+        - text: Privacy Policy
+          link: /privacy/
+        - text: Terms of Service
+          link: /privacy/
