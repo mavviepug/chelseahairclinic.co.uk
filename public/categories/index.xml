@@ -1,26 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Chelsea Hair Clinic</title>
+    <title>Categories on Chelsea Medical Marketing</title>
     <link>https://chelseahairclinic.co.uk/categories/</link>
-    <description>Recent content in Categories on Chelsea Hair Clinic</description>
+    <description>Recent content in Categories on Chelsea Medical Marketing</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 29 Jul 2025 09:57:42 +0100</lastBuildDate>
     <atom:link href="https://chelseahairclinic.co.uk/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Examples</title>
-      <link>https://chelseahairclinic.co.uk/categories/examples/</link>
-      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://chelseahairclinic.co.uk/categories/examples/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Placeholders</title>
-      <link>https://chelseahairclinic.co.uk/categories/placeholders/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://chelseahairclinic.co.uk/categories/placeholders/</guid>
-      <description></description>
-    </item>
   </channel>
 </rss>
