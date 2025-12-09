@@ -2,29 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://chelseahairclinic.co.uk/about/</loc>
-    <lastmod>2025-12-09T15:02:58+00:00</lastmod>
+    <loc>https://chelseahairclinic.co.uk/homepage/opener/</loc>
   </url><url>
-    <loc>https://chelseahairclinic.co.uk/categories/</loc>
+    <loc>https://chelseahairclinic.co.uk/homepage/services/</loc>
+  </url><url>
+    <loc>https://chelseahairclinic.co.uk/homepage/about/</loc>
+  </url><url>
+    <loc>https://chelseahairclinic.co.uk/homepage/portfolio/</loc>
+  </url><url>
+    <loc>https://chelseahairclinic.co.uk/homepage/contact/</loc>
   </url><url>
     <loc>https://chelseahairclinic.co.uk/</loc>
-    <lastmod>2025-12-09T15:02:58+00:00</lastmod>
-  </url><url>
-    <loc>https://chelseahairclinic.co.uk/contact/</loc>
-    <lastmod>2025-12-09T15:02:58+00:00</lastmod>
-  </url><url>
-    <loc>https://chelseahairclinic.co.uk/portfolio/</loc>
-    <lastmod>2025-12-09T15:02:58+00:00</lastmod>
-  </url><url>
-    <loc>https://chelseahairclinic.co.uk/privacy/</loc>
-    <lastmod>2025-12-09T15:02:58+00:00</lastmod>
   </url><url>
     <loc>https://chelseahairclinic.co.uk/search/</loc>
-    <lastmod>2025-07-29T09:57:42+01:00</lastmod>
-  </url><url>
-    <loc>https://chelseahairclinic.co.uk/services/</loc>
-    <lastmod>2025-12-09T15:02:58+00:00</lastmod>
-  </url><url>
-    <loc>https://chelseahairclinic.co.uk/tags/</loc>
   </url>
 </urlset>
