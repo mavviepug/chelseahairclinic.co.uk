@@ -1,5 +1,5 @@
 ---
-header_image: "images/cover-image.webp"
+header_image: "images/hero.webp"
 header_use_video: false
 header_headline: "Chelsea Medical Marketing"
 header_subheadline: "Specialist <b>Digital Marketing</b> for <b>Healthcare</b>"
