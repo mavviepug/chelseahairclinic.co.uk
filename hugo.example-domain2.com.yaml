@@ -1,36 +1,32 @@
-baseURL: https://chelseahairclinic.co.uk
+# Domain-specific config for example-domain2.com
+# Build with: hugo --config hugo.example-domain2.com.yaml
+#
+# INSTRUCTIONS:
+# 1. Copy this file and rename it for your domain
+# 2. Update baseURL, contact info, and any domain-specific branding
+# 3. Content in content/en/ is shared across all domains
+# 4. Build: hugo --config hugo.your-domain.yaml
 
-# Single-page website, disable unused page types
+baseURL: https://example-domain2.com
+
 disableKinds: ["section", "taxonomy", "term", "RSS", "robotsTXT"]
-
 defaultContentLanguage: en
-
 theme: hugo-scroll
-
-title: Chelsea Medical Marketing - Healthcare Digital Marketing & SEO
-
+title: Your Practice Name - Healthcare Digital Marketing & SEO
 enableEmoji: true
 
 params:
   favicon: images/favicon.png
   images: ["images/cover-image.jpg"]
-
   title_guard: false
-
-  title: Chelsea Medical Marketing - Healthcare Digital Marketing & SEO
+  title: Your Practice Name - Healthcare Digital Marketing & SEO
   description: Specialist digital marketing and SEO services for healthcare and medical aesthetics practices
-
   language_menu: false
   show_current_lang: false
-
-  copyright: "© 2023-2025 Chelsea Medical Marketing Ltd"
-
+  copyright: "© 2023-2025 Your Practice Name Ltd"
   hidedesignbyline: false
-
   invertSectionColors: false
-
   image_options: "webp q90 lanczos photo"
-
   combine_page_and_site_title: false
 
   footer:
@@ -40,21 +36,18 @@ params:
   meta:
     keywords: "healthcare marketing, medical SEO, healthcare SEO, medical aesthetics marketing, clinic marketing, healthcare digital PR"
 
-  # Contact information
   contacts:
     - label: email
-      value: hello@chelseahairclinic.co.uk
-      url: mailto:hello@chelseahairclinic.co.uk
+      value: contact@example-domain2.com
+      url: mailto:contact@example-domain2.com
       icon: fa fa-envelope
-
     - label: phone
-      value: "+44 (0) 20 7946 0958"
-      url: "tel:+442079460958"
+      value: "+44 (0) 20 XXXX XXXX"
+      url: "tel:+4420XXXXXXXX"
       icon: fa fa-phone
-
     - label: LinkedIn
-      value: linkedin.com/company/chelsea-medical-marketing
-      url: https://linkedin.com/company/chelsea-medical-marketing
+      value: linkedin.com/company/your-company
+      url: https://linkedin.com/company/your-company
       icon: "fa-brands fa-linkedin"
 
 languages:
